@@ -1,0 +1,102 @@
+#left {
+    float: left;
+    width: 40%;
+    background-image: linear-gradient(to bottom right, #4284f5, #03cafc);
+    text-align: center;
+    color: white;
+}
+
+#main {
+    float: left;
+    width: 60%;
+}
+
+div {
+    height: 95vh;
+}
+
+img {
+    margin-top: 40px;
+}
+
+.bbutton {
+    background: #4284f5;
+    color: white;
+    border: none;
+    height: 30px;
+    font-size: 17px;
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wbutton {
+    background: white;
+    color: #4284f5;
+    border-color: #4284f5;
+    border-style: solid;
+    height: 30px;
+    font-size: 17px;
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#errbutton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #eb836e;
+    color: white;
+    border: none;
+    height: 30px;
+    font-size: 17px;
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input {
+    width: 35%;
+    height: 27px;
+    color: lightgrey;
+    border-color: lightgrey;
+    border-style: solid;
+    padding-left: 10px;
+}
+
+label {
+    font-size: 11px;
+}
+
+.fa {
+    color: lightgrey;
+}
+
+table {
+    width: 90%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    font-weight: lighter;
+    height: 30px;
+}
+tr {
+    border: solid;
+    border-width: 7px 0;
+    border-color: lightgrey;
+}
+
+tr:first-child {
+    border-top: none; 
+}
+tr:last-child {
+    border-bottom: none;
+}
